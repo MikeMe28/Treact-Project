@@ -216,7 +216,39 @@ header .row {
     width: 600px;
 }
 
-.header__email--btn {}
+.row__header {
+    align-items: center;
+}
+
+.header__email--btn {
+    width: 100%;
+    max-width: 448;
+    height: 68px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__logo {
+    margin-top: 16px;
+    opacity: .5;
+    width: 100%;
+}
+
+.trust__cust{
+    margin-top: 80px;
+    color: #a0aec0;
+    font-weight: 700;
+}
+
+.first__div {
+    width: 40%;
+}
+
+.second__div {
+    width: 60%;
+}
 /* 
 
 FEATURES ↓
@@ -340,10 +372,10 @@ MOBILE RESPONSIVENESS ↓
 
 
 @media(max-width: 1280px) {
-    header .row {
+    /* header .row {
         align-items: flex-end;
     }
-}
+} */
 
 @media (max-width: 1024px) {
 
